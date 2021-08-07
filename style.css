@@ -11,14 +11,14 @@
     }
 
 /* Banner */
-.container{
+.first-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color:darkblue;
     
     
 }
-.container img{
+.first-container img{
     margin-left: 40px;
     width: 70%;
     height: 70%;
@@ -49,4 +49,19 @@ body{
     background-color: gainsboro;
     margin: 50px;
     
+}
+
+/* PLayers & Blogs  */
+
+.player img{  
+    
+        margin-left: 40px;
+        width: 70%;
+        height: 70%;
+        padding: 50px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
