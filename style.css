@@ -1,0 +1,52 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Header  */
+    .login-area{
+        text-align:right;
+        color: white;
+        background-color:darkblue;
+        
+        
+    }
+
+/* Banner */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:darkblue;
+    
+    
+}
+.container img{
+    margin-left: 40px;
+    width: 70%;
+    height: 70%;
+    padding: 50px;
+    
+}
+.banner-text{
+    margin-left: 100px;
+    color: white;
+    font-size: 65px;
+       
+}
+.text-area{
+    background-color: red;
+    
+}
+.content{
+    background-color: yellow;
+}
+.click{
+    margin-top: 0px;
+}
+
+
+/* Utillities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: gainsboro;
+    margin: 50px;
+    
+}
